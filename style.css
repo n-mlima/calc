@@ -87,11 +87,16 @@ main{
 
 @media(max-width:768px){
     html{
-        font-size: 50%;
+        font-size: 55%;
     }
 
     .keys{
-        gap: 1.5rem;     
+        
+        grid-template-columns: repeat(4, 80px);
+        grid-template-rows: repeat(5, 40px);
+        height: 250px;
+        gap: 1.5rem;
+           
     }
 
     #copy{
@@ -99,9 +104,19 @@ main{
     }
 
     .input{
-        width: 365px;
+        width: 300px;
+    }
+    #input_user{
+        width: 400px;
+        
+    }
+
+    #equal{
+        justify-content: center;
     }
    
 
     
 }
+    
+
