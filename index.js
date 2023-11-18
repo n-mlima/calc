@@ -71,12 +71,12 @@ document.getElementById("btt_equal").addEventListener("click",calculate)
 document.getElementById("copy").addEventListener("click",function(ev){
     console.log("clicado!")
     const button = ev.currentTarget
-    if(button.innerText === "Copy"){
-        button.innerText="Copied"
+    if(button.innerText === "Copiar"){
+        button.innerText="Copiado"
         button.classList.add("copied")
         navigator.clipboard.writeText(input_re.value)
     }else{
-        button.innerText="Copy"
+        button.innerText="Copiar"
         button.classList.remove("copied")
     }
 
