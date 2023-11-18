@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content:center;
+    padding: 3rem;
+    gap: 3rem;
+    font-size: 1.5rem;
+}
+span{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.tema_escuro{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.651);
+}
+.tema_claro{
+    background-color: rgba(255, 255, 255, 0.308);
+    color: black;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.input{
+    width: 350px;
+    
+    justify-content: center;
+    padding-right: 1rem;
+    font-size: 1.8rem;
+    height: 50px;
+    border: 0.5px rgb(139, 137, 137) solid;
+    text-align: right;
+    
+}
+#input_user{
+    width: 460px;
+}
+#equal{
+    
+    display: flex;
+    
+    padding: 1rem;
+    
+    
+}
+#copy{
+    width: 80px;
+    font-size: 1rem;
+    border: 0.5px rgb(139, 137, 137) solid;
+    cursor: pointer;
+}
+.keys{
+    display: grid;
+    justify-content: center;
+	grid-template-columns: repeat(4, 100px);
+	grid-template-rows: repeat(5, 50px);
+	height: 300px;
+    gap: 1rem;
+       
+}
+
+.btt_keys, #clear, #btt_equal{
+    border: none;
+    font-size: 2rem;
+    background-color: rgba(16, 16, 85, 0.808);
+    color: rgba(255, 255, 255, 0.651);
+    cursor: pointer;
+}
+
+.copied{
+    color: white;
+    background-color: rgba(34, 21, 180, 0.452)
+}
