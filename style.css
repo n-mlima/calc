@@ -31,6 +31,7 @@ span{
 main{
     display: grid;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
     
 }
@@ -51,7 +52,6 @@ main{
 #equal{
     
     display: flex;
-    
     padding: 1rem;
     
     
@@ -91,11 +91,11 @@ main{
     }
 
     .keys{
-        
+       
         grid-template-columns: repeat(4, 80px);
         grid-template-rows: repeat(5, 40px);
         height: 250px;
-        gap: 1.5rem;
+        gap: 1.2rem;
            
     }
 
@@ -104,18 +104,19 @@ main{
     }
 
     .input{
-        width: 300px;
+        width: 270px;
     }
+   
     #input_user{
-        width: 400px;
+        padding-left: 0px;
+        margin-left: 10px;
+        width: 345px;
         
     }
 
     #equal{
         justify-content: center;
     }
-   
-
     
 }
     
