@@ -84,3 +84,24 @@ main{
     color: white;
     background-color: rgba(34, 21, 180, 0.452)
 }
+
+@media(max-width:768px){
+    html{
+        font-size: 50%;
+    }
+
+    .keys{
+        gap: 1.5rem;     
+    }
+
+    #copy{
+        font-size: 1.5rem; 
+    }
+
+    .input{
+        width: 365px;
+    }
+   
+
+    
+}
